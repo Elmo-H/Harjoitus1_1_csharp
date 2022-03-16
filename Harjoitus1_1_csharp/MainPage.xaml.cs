@@ -26,5 +26,29 @@ namespace Harjoitus1_1_csharp
         {
             this.InitializeComponent();
         }
+
+        public void Change()
+        {
+            int i;
+            int a;
+            i = int.Parse(num1.Text);
+            a = int.Parse(num2.Text);
+        }
+
+        public static int Sum(int num1, int num2)
+        {
+
+            int total;
+            total = num1 + num2;
+            return total;
+        }
+        private void Sum_Numbers(object sender, RoutedEventArgs e)
+        {
+            int value = Sum(1, 2);
+            String NewValue = value.ToString();
+            res.Text = NewValue;
+        }
+
+      
     }
 }

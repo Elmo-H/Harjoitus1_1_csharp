@@ -9,8 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <StackPanel>
 
-        <TextBlock Margin="50, 70, 40, 50" FontSize="30" FontWeight="Bold" Width="200" HorizontalAlignment="Left">Yksinkertainen laskin</TextBlock>
-        
+        <TextBlock Margin="50, 70, 40, 30" FontSize="60" FontWeight="Bold" Width="601" HorizontalAlignment="Left">Yksinkertainen laskin</TextBlock>
+
+        <TextBox Name="num1" Margin="50, 0, 0, 10" BorderThickness="2" Width="145" Height="40" HorizontalAlignment="Left"></TextBox>
+        <TextBox Name="num2" Margin="50, 10, 0, 0" BorderThickness="2" Width="145" Height="40" HorizontalAlignment="Left"></TextBox>
+
+        <Button Margin="50, 40, 0, 0">Summaa!</Button>
+
+        <TextBox Name="sum" Margin="50, 40, 0, 0" BorderBrush="#008b8b" Foreground="White" Background="#008b8b" BorderThickness="2" Width="145" Height="40" HorizontalAlignment="Left"></TextBox>
+
     </StackPanel>
 
 

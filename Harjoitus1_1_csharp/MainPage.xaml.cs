@@ -44,7 +44,8 @@ namespace Harjoitus1_1_csharp
         }
         private void Sum_Numbers(object sender, RoutedEventArgs e)
         {
-            int value = Sum(1, 2);
+            Change();
+            int value = Sum();
             String NewValue = value.ToString();
             res.Text = NewValue;
         }

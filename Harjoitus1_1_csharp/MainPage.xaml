@@ -16,7 +16,7 @@
 
         <Button Margin="50, 40, 0, 0" Click="Sum_Numbers">Summaa!</Button>
 
-        <TextBox Name="res" Margin="50, 40, 0, 0" BorderBrush="#008b8b" Foreground="White" Background="#008b8b" BorderThickness="2" Width="145" Height="40" HorizontalAlignment="Left"></TextBox>
+        <TextBox Name="result" Margin="50, 40, 0, 0" BorderBrush="#008b8b" Foreground="White" Background="#008b8b" BorderThickness="2" Width="145" Height="40" HorizontalAlignment="Left"></TextBox>
 
     </StackPanel>
 
